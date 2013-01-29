@@ -7,7 +7,7 @@
         "commands" : [
           "cd $WERCKER_ROOT",
           "berks -p cookbooks"
-        ]}},
+        ]}}
   ],
   "testSteps" : [
     {"name" : "does_optimus_json_exist", "type" : "commands-step", "blocking" : false,
