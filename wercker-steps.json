@@ -6,7 +6,7 @@
         "dependentOnFile" : "Berksfile",
         "commands" : [
           "cd $WERCKER_ROOT",
-          "berks -p cookbooks"
+          "berks install -p cookbooks"
         ]}}
   ],
   "testSteps" : [
