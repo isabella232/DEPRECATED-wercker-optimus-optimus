@@ -1,6 +1,6 @@
 {
 	"name" : "optimus",
-	"version" : "0.0.1",
+	"version" : "0.0.2",
 	"stackInfo" :
   	{
       "stackVersions" : ["0.0.0"],
@@ -12,6 +12,6 @@
   "isPrivate" : false,
   "mainDetect" : [ {"files" : ["optimus.json"]}],
   "supportDetect" : [],
-  "packageIgnore" : [],
+  "packageIgnore" :  [ ".idea", ".git", ".gitignore", ".gitmodules"],
   "priority" : 1000
 }
