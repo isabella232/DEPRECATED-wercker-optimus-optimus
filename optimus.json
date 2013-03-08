@@ -1,17 +1,31 @@
 {
-	"name" : "optimus",
-	"version" : "0.0.2",
-	"stackInfo" :
-  	{
-      "stackVersions" : ["0.0.0"],
-      "defaultVersion" : "0.0.0",
-      "versionMapping": [
-          {"0" : "0.0.0"}
+  "name": "optimus",
+  "version": "0.0.3",
+  "stackInfo": {
+    "stackVersions": [
+      "0.0.0"
+    ],
+    "defaultVersion": "0.0.0",
+    "versionMapping": [
+      {
+        "0": "0.0.0"
+      }
+    ]
+  },
+  "isPrivate": false,
+  "mainDetect": [
+    {
+      "files": [
+        "optimus.json"
       ]
-  	},
-  "isPrivate" : false,
-  "mainDetect" : [ {"files" : ["optimus.json"]}],
-  "supportDetect" : [],
-  "packageIgnore" :  [ ".idea", ".git", ".gitignore", ".gitmodules"],
-  "priority" : 1000
+    }
+  ],
+  "supportDetect": [],
+  "packageIgnore": [
+    ".idea",
+    ".git",
+    ".gitignore",
+    ".gitmodules"
+  ],
+  "priority": 1000
 }
